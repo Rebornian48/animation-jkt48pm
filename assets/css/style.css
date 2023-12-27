@@ -1,0 +1,15 @@
+body {
+    background-color: #f8aebb;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.rotate-image {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    animation: rotate 1s linear infinite;
+}
